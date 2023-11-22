@@ -1,0 +1,23 @@
+{
+  "name": "package.json",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "develop": "nodemon index.js",
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "type": "module",
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "generate-random-shapes": "^0.0.2",
+    "nodemon": "^3.0.1",
+    "squares-rng": "^2.0.1"
+  },
+  "devDependencies": {
+    "resolve-typescript-plugin": "^2.0.1"
+  }
+}
